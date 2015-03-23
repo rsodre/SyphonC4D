@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0A66833391837B5E7010000 /* main.h in Headers */ = {isa = PBXBuildFile; fileRef = A0A66833391837B5E7000000 /* main.h */; };
+		A0A6683339E921D362010000 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A0A6683339E921D362000000 /* main.cpp */; };
+		DB9F83DB1ABFA494000D523D /* Syphon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB9F83DA1ABFA494000D523D /* Syphon.framework */; };
+		DBCACB5D1AB7765E00572BF4 /* SyphonVP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBCACB5C1AB7765E00572BF4 /* SyphonVP.cpp */; };
+		DBCACB6E1AB78E5C00572BF4 /* r13.h in Headers */ = {isa = PBXBuildFile; fileRef = DBCACB6D1AB78E5C00572BF4 /* r13.h */; };
+		DBCACBB61AB78FF500572BF4 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCACBB51AB78FF500572BF4 /* OpenGL.framework */; };
+		DBCACBB81AB78FFB00572BF4 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBCACBB71AB78FFB00572BF4 /* AppKit.framework */; };
+		DBCACBE51AB7907C00572BF4 /* SyphonC4DServer.h in Headers */ = {isa = PBXBuildFile; fileRef = DBCACBDB1AB7907C00572BF4 /* SyphonC4DServer.h */; };
+		DBCACBE61AB7907C00572BF4 /* SyphonC4DServer.mm in Sources */ = {isa = PBXBuildFile; fileRef = DBCACBDC1AB7907C00572BF4 /* SyphonC4DServer.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBB3C6941ABFCCFB0069BC97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBB3C68F1ABFCCFB0069BC97 /* cinema.framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A08C5CDEA3F470FF417B0000;
+			remoteInfo = cinema.framework;
+		};
+		DBB3C6961ABFCCFB0069BC97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBB3C68F1ABFCCFB0069BC97 /* cinema.framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A08C5CDEA3F470FF417B0100;
+			remoteInfo = "cinema.framework static library";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A08C5CDEA3A66833397B0000 /* SyphonR16.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = SyphonR16.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0A668333900000000000000 /* debugbase.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = debugbase.xcconfig; path = "/Applications/MAXON/CINEMA 4D R16/frameworks/settings/debugbase.xcconfig"; sourceTree = "<absolute>"; };
+		A0A668333900000000050000 /* releasebase.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = releasebase.xcconfig; path = "/Applications/MAXON/CINEMA 4D R16/frameworks/settings/releasebase.xcconfig"; sourceTree = "<absolute>"; };
+		A0A66833391837B5E7000000 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = main.h; path = source/main.h; sourceTree = SOURCE_ROOT; };
+		A0A6683339E921D362000000 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = source/main.cpp; sourceTree = SOURCE_ROOT; };
+		DB9F83DA1ABFA494000D523D /* Syphon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Syphon.framework; sourceTree = "<group>"; };
+		DBB3C68F1ABFCCFB0069BC97 /* cinema.framework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cinema.framework.xcodeproj; path = "../../../../../../../../Applications/MAXON/CINEMA 4D R16/frameworks/cinema.framework/project/cinema.framework.xcodeproj"; sourceTree = "<group>"; };
+		DBCACB5C1AB7765E00572BF4 /* SyphonVP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SyphonVP.cpp; path = source/SyphonVP.cpp; sourceTree = SOURCE_ROOT; };
+		DBCACB5F1AB77D6100572BF4 /* c4d_symbols.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = c4d_symbols.h; sourceTree = "<group>"; };
+		DBCACB611AB77D6100572BF4 /* SyphonPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SyphonPlugin.h; sourceTree = "<group>"; };
+		DBCACB621AB77D6100572BF4 /* SyphonPlugin.res */ = {isa = PBXFileReference; lastKnownFileType = text; path = SyphonPlugin.res; sourceTree = "<group>"; };
+		DBCACB641AB77D6100572BF4 /* c4d_strings.str */ = {isa = PBXFileReference; lastKnownFileType = text; path = c4d_strings.str; sourceTree = "<group>"; };
+		DBCACB661AB77D6100572BF4 /* SyphonPlugin.str */ = {isa = PBXFileReference; lastKnownFileType = text; path = SyphonPlugin.str; sourceTree = "<group>"; };
+		DBCACB6D1AB78E5C00572BF4 /* r13.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = r13.h; path = source/r13.h; sourceTree = SOURCE_ROOT; };
+		DBCACBB51AB78FF500572BF4 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		DBCACBB71AB78FFB00572BF4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		DBCACBDB1AB7907C00572BF4 /* SyphonC4DServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SyphonC4DServer.h; path = source/Syphon/src/SyphonC4DServer.h; sourceTree = SOURCE_ROOT; };
+		DBCACBDC1AB7907C00572BF4 /* SyphonC4DServer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SyphonC4DServer.mm; path = source/Syphon/src/SyphonC4DServer.mm; sourceTree = SOURCE_ROOT; };
+		DBCACC5D1AB7FD5000572BF4 /* install.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = install.sh; path = source/install.sh; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0A6683339000000000F0000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBCACBB81AB78FFB00572BF4 /* AppKit.framework in Frameworks */,
+				DBCACBB61AB78FF500572BF4 /* OpenGL.framework in Frameworks */,
+				DB9F83DB1ABFA494000D523D /* Syphon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0A668333900000000140000 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				DBCACBB41AB78FCA00572BF4 /* Frameworks */,
+				A0A668333900000000000000 /* debugbase.xcconfig */,
+				A0A668333900000000050000 /* releasebase.xcconfig */,
+				DBB3C68F1ABFCCFB0069BC97 /* cinema.framework.xcodeproj */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		A0A6683339000000001E0000 = {
+			isa = PBXGroup;
+			children = (
+				A0A6683339CA90681B000000 /* source */,
+				DBCACB5E1AB77D6100572BF4 /* res */,
+				A0A668333900000000140000 /* libs */,
+				A0A668333900000000230000 /* products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0A668333900000000230000 /* products */ = {
+			isa = PBXGroup;
+			children = (
+				A08C5CDEA3A66833397B0000 /* SyphonR16.dylib */,
+			);
+			name = products;
+			sourceTree = "<group>";
+		};
+		A0A6683339CA90681B000000 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				DBCACB6D1AB78E5C00572BF4 /* r13.h */,
+				A0A66833391837B5E7000000 /* main.h */,
+				A0A6683339E921D362000000 /* main.cpp */,
+				DBCACB5C1AB7765E00572BF4 /* SyphonVP.cpp */,
+				DBCACBD21AB7907C00572BF4 /* Syphon */,
+			);
+			name = source;
+			path = ../source;
+			sourceTree = SOURCE_ROOT;
+		};
+		DBB3C6901ABFCCFB0069BC97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBB3C6951ABFCCFB0069BC97 /* libcinema.framework.a */,
+				DBB3C6971ABFCCFB0069BC97 /* libcinema.framework_static.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBCACB5E1AB77D6100572BF4 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				DBCACC5D1AB7FD5000572BF4 /* install.sh */,
+				DBCACB5F1AB77D6100572BF4 /* c4d_symbols.h */,
+				DBCACB601AB77D6100572BF4 /* description */,
+				DBCACB631AB77D6100572BF4 /* strings_us */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		DBCACB601AB77D6100572BF4 /* description */ = {
+			isa = PBXGroup;
+			children = (
+				DBCACB611AB77D6100572BF4 /* SyphonPlugin.h */,
+				DBCACB621AB77D6100572BF4 /* SyphonPlugin.res */,
+			);
+			path = description;
+			sourceTree = "<group>";
+		};
+		DBCACB631AB77D6100572BF4 /* strings_us */ = {
+			isa = PBXGroup;
+			children = (
+				DBCACB641AB77D6100572BF4 /* c4d_strings.str */,
+				DBCACB651AB77D6100572BF4 /* description */,
+			);
+			path = strings_us;
+			sourceTree = "<group>";
+		};
+		DBCACB651AB77D6100572BF4 /* description */ = {
+			isa = PBXGroup;
+			children = (
+				DBCACB661AB77D6100572BF4 /* SyphonPlugin.str */,
+			);
+			path = description;
+			sourceTree = "<group>";
+		};
+		DBCACBB41AB78FCA00572BF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBCACBB71AB78FFB00572BF4 /* AppKit.framework */,
+				DBCACBB51AB78FF500572BF4 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DBCACBD21AB7907C00572BF4 /* Syphon */ = {
+			isa = PBXGroup;
+			children = (
+				DBCACBD31AB7907C00572BF4 /* lib */,
+				DBCACBD51AB7907C00572BF4 /* src */,
+			);
+			name = Syphon;
+			path = source/Syphon;
+			sourceTree = SOURCE_ROOT;
+		};
+		DBCACBD31AB7907C00572BF4 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				DB9F83DA1ABFA494000D523D /* Syphon.framework */,
+			);
+			name = lib;
+			path = source/Syphon/lib;
+			sourceTree = SOURCE_ROOT;
+		};
+		DBCACBD51AB7907C00572BF4 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				DBCACBDB1AB7907C00572BF4 /* SyphonC4DServer.h */,
+				DBCACBDC1AB7907C00572BF4 /* SyphonC4DServer.mm */,
+			);
+			name = src;
+			path = source/Syphon/src;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A0A6683339000000002D0000 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A66833391837B5E7010000 /* main.h in Headers */,
+				DBCACBE51AB7907C00572BF4 /* SyphonC4DServer.h in Headers */,
+				DBCACB6E1AB78E5C00572BF4 /* r13.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A08C5CDEA3A6683339000000 /* SyphonR16 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0A668333900000000460000 /* Build configuration list for PBXNativeTarget "SyphonR16" */;
+			buildPhases = (
+				A0A668333900000000320000 /* Sources */,
+				A0A6683339000000000F0000 /* Frameworks */,
+				A0A6683339000000002D0000 /* Headers */,
+				DB624AE61AB8DFEA00A4F48F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SyphonR16;
+			productName = cinema4dsdk;
+			productReference = A08C5CDEA3A66833397B0000 /* SyphonR16.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0A6683339000000003C0000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "MAXON Computer GmbH";
+			};
+			buildConfigurationList = A0A668333900000000410000 /* Build configuration list for PBXProject "SyphonR16" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A0A6683339000000001E0000;
+			productRefGroup = A0A668333900000000230000 /* products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DBB3C6901ABFCCFB0069BC97 /* Products */;
+					ProjectRef = DBB3C68F1ABFCCFB0069BC97 /* cinema.framework.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A08C5CDEA3A6683339000000 /* SyphonR16 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DBB3C6951ABFCCFB0069BC97 /* libcinema.framework.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcinema.framework.a;
+			remoteRef = DBB3C6941ABFCCFB0069BC97 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DBB3C6971ABFCCFB0069BC97 /* libcinema.framework_static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcinema.framework_static.a;
+			remoteRef = DBB3C6961ABFCCFB0069BC97 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DB624AE61AB8DFEA00A4F48F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "\"${PROJECT_DIR}/source/install.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0A668333900000000320000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A6683339E921D362010000 /* main.cpp in Sources */,
+				DBCACB5D1AB7765E00572BF4 /* SyphonVP.cpp in Sources */,
+				DBCACBE61AB7907C00572BF4 /* SyphonC4DServer.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A0A6683339000000004B0000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A668333900000000000000 /* debugbase.xcconfig */;
+			buildSettings = {
+				MAXON_ROOTDIR = ../../;
+				USER_HEADER_SEARCH_PATHS = "./source ./res ./res/description $(MAXON_ROOTDIR)frameworks/cinema.framework/source/** $(inherited)";
+			};
+			name = Debug;
+		};
+		A0A668333900000000500000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0A668333900000000050000 /* releasebase.xcconfig */;
+			buildSettings = {
+				MAXON_ROOTDIR = ../../;
+				USER_HEADER_SEARCH_PATHS = "./source ./res ./res/description $(MAXON_ROOTDIR)frameworks/cinema.framework/source/** $(inherited)";
+			};
+			name = Release;
+		};
+		A0A6683339000000005A0000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEPLOYMENT_LOCATION = YES;
+				EXECUTABLE_EXTENSION = dylib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/source/Syphon/lib",
+				);
+				INSTALL_PATH = /.;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0A6683339000000005F0000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEPLOYMENT_LOCATION = YES;
+				EXECUTABLE_EXTENSION = dylib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/source/Syphon/lib",
+				);
+				INSTALL_PATH = /.;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0A668333900000000410000 /* Build configuration list for PBXProject "SyphonR16" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A6683339000000004B0000 /* Debug */,
+				A0A668333900000000500000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A0A668333900000000460000 /* Build configuration list for PBXNativeTarget "SyphonR16" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0A6683339000000005A0000 /* Debug */,
+				A0A6683339000000005F0000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0A6683339000000003C0000 /* Project object */;
+}

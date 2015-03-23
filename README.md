@@ -16,9 +16,20 @@ Copy `Syphon.framework` to `/Library/Frameworks/`
 
 Copy `SyphonRxx` folder to `/Applications/MAXON/CINEMA 4D Rxx/plugins/`
 
+Open Cinema 4D, Render Settings, Effects, add the **Syphon Server** effect.
+
+**Warning:** Syphon will slow down the render (specially real time mode), use only if needed.
+
+**Warning:** Remove it completely if you want to send your project to a render farm.
+
+Supported Versions
+==================
+
+From R13 to R16 and beyond...
+
 Use SyphonR13 for Cinema 4D R14.
 
-SyphonR16 should work on future releases.
+SyphonR16 will hopefully work on future releases.
 
 Will not work with Cinema 4D Lite.
 
@@ -28,5 +39,4 @@ Compiling the Source
 The XCode projects are configured for the default location of Cinema 4D: `/Applications/MAXON/CINEMA 4D Rxx/`
 
 If your installation is on another place, relink the Cinema 4D libs and edit `install.sh`
-
 

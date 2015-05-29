@@ -2,14 +2,15 @@
 
 A Syphon Server to visualize Cinema 4D Renders in Real Time
 
-By Roger Sodre / [Studio Avante](http://studioavante.com/)
+
+By Roger Sodre / [Studio Avante](http://studioavante.com/) / [@Roger_S](https://twitter.com/Roger_S)
 
 [Syphon](http://syphon.v002.info/) by [Tom Butterworth](http://kriss.cx/tom/) and [Anton Marini](http://vade.info/)
 
 Download & Installation
 =======================
 
-A ready to use plugin can be downloaded here: 
+Compiled, ready to use plugin download: 
 [SyphonC4D.zip](http://download.studioavante.com/Syphon/SyphonC4D.zip)
 
 Copy `Syphon.framework` to `/Library/Frameworks/`
@@ -18,20 +19,24 @@ Copy `SyphonRxx` folder to `/Applications/MAXON/CINEMA 4D Rxx/plugins/`
 
 Open Cinema 4D, Render Settings, Effects, add the **Syphon Server** effect.
 
-**Warning:** Syphon will slow down the render (specially real time mode), use only if needed.
+**Warning:** SyphonC4D will slow down the render (specially when in real time mode), use only for live preview.
 
-**Warning:** Remove it completely if you want to send your project to a render farm.
+**Warning:** Remove it from your project before sending it to a render farm.
 
 Supported Versions
 ==================
 
-From R13 to R16 and beyond...
+Cinema 4D R13	: Yes
 
-Use SyphonR13 for Cinema 4D R14.
+Cinema 4D R14	: Yes (use the R13 version)
 
-SyphonR16 will hopefully work on future releases.
+Cinema 4D R15	: Yes (if it does not work, try the R13 version)
 
-Will not work with Cinema 4D Lite.
+Cinema 4D R16	: Yes
+
+Cinema 4D R17+	: Hopefully yes
+
+Cinema 4D Lite	: No
 
 Compiling the Source
 ====================

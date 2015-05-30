@@ -10,6 +10,13 @@
 #eval "${GCC_PREPROCESSOR_DEFINITIONS}"
 #eval "${GCC_PREPROCESSOR_MACROS}"
 
+# Change Syphon searchpath
+# http://lessons.runrev.com/m/4071/l/15029-linking-an-osx-external-bundle-with-a-dylib-library
+# http://qin.laya.com/tech_coding_help/dylib_linking.html
+export THE_LIB="${TARGET_BUILD_DIR}/${EXECUTABLE_NAME}"
+install_name_tool -change @loader_path/../Frameworks/Syphon.framework/Versions/A/Syphon @loader_path/Syphon.framework/Versions/A/Syphon "$THE_LIB"
+otool -L "$THE_LIB" | grep Syphon.framework
+
 # Check cinema install version
 # http://askubuntu.com/questions/299710/how-to-determine-if-a-string-is-a-substring-of-another-in-bash
 # R13 build
@@ -33,7 +40,6 @@ sudo mkdir -p "${DEST_FOLDER}"
 sudo chmod a+rw "${DEST_FOLDER}"
 
 # copy files
-export THE_LIB="${TARGET_BUILD_DIR}/${EXECUTABLE_NAME}"
 sudo cp "${THE_LIB}" "${PROJECT_DIR}"
 sudo cp "${THE_LIB}" "${DEST_FOLDER}"
 

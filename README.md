@@ -13,8 +13,6 @@ Download & Installation
 Compiled, ready to use plugin download: 
 [SyphonC4D.zip](http://download.studioavante.com/Syphon/SyphonC4D.zip)
 
-Copy `Syphon.framework` to `/Library/Frameworks/`
-
 Copy `SyphonRxx` folder to `/Applications/MAXON/CINEMA 4D Rxx/plugins/`
 
 Open Cinema 4D, Render Settings, Effects, add the **Syphon Server** effect.

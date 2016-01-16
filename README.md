@@ -32,7 +32,7 @@ Cinema 4D R15	: Yes (if it does not work, try the R13 version)
 
 Cinema 4D R16	: Yes
 
-Cinema 4D R17+	: Hopefully yes
+Cinema 4D R17	: Yes (use R16 version)
 
 Cinema 4D Lite	: No
 

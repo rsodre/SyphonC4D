@@ -1,0 +1,11 @@
+STRINGTABLE SyphonPlugin
+{
+	SyphonPlugin				"Syphon Server";
+
+	VP_SYPHON_ENABLED			"Enable Syphon Server";
+	VP_SYPHON_MODE				"Frame Update";
+	VP_SYPHON_MODE_REALTIME			"Real Time (slower)";
+	VP_SYPHON_MODE_FRAME			"Full Frames (faster)";
+	VP_SYPHON_WARNING1			"Warning: Syphon will slow down the render, use only when previewing.";
+	VP_SYPHON_WARNING2			"Remove it completely if you want to send this project to a render farm.";
+}

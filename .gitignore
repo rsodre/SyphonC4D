@@ -26,3 +26,10 @@
 *.exe
 *.out
 *.app
+
+# mac
+.DS_Store
+/Releases
+frameworks
+build
+(build)

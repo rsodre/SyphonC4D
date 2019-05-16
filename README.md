@@ -7,8 +7,7 @@ By Roger Sodre / [Studio Avante](http://studioavante.com/) / [@Roger_S](https://
 
 [Syphon](http://syphon.v002.info/) by [Tom Butterworth](http://kriss.cx/tom/) and [Anton Marini](http://vade.info/)
 
-Download & Installation
-=======================
+## Download & Installation
 
 Compiled, ready to use plugin download: 
 [SyphonC4D.zip](http://download.studioavante.com/Syphon/SyphonC4D.zip)
@@ -19,25 +18,25 @@ Open Cinema 4D, Render Settings, Effects, add the **Syphon Server** effect.
 
 **Warning:** SyphonC4D will slow down the render (specially when in real time mode), use only for live preview.
 
-**Warning:** Remove it from your project before sending it to a render farm.
+**Warning:** Remove it from settings before sending it to a render farm.
 
-Supported Versions
-==================
+## Supported Versions
 
-Cinema 4D R13	: Yes
+Tested and validated on...
 
-Cinema 4D R14	: Yes (use the R13 version)
+* Cinema 4D Lite	: No
+* Cinema 4D R13.061	: Yes
+* Cinema 4D R14.041	: Yes (use R13 version)
+* Cinema 4D R15.064	: Yes (if fails, try R13 version)
+* Cinema 4D R16.051	: Yes
+* Cinema 4D R17.055	: Yes (use R16 version)
+* Cinema 4D R18.057	: Yes (use R16 version)
+* Cinema 4D R19.053	: Yes (use R16 version)
+* Cinema 4D R20.055	: Yes
+* Cinema 4D R21+	: Hopefully Yes
 
-Cinema 4D R15	: Yes (if it does not work, try the R13 version)
 
-Cinema 4D R16	: Yes
-
-Cinema 4D R17	: Yes (use R16 version)
-
-Cinema 4D Lite	: No
-
-Compiling the Source
-====================
+## Compiling the Source
 
 The XCode projects are configured for the default location of Cinema 4D: `/Applications/MAXON/CINEMA 4D Rxx/`
 

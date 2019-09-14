@@ -1,0 +1,20 @@
+// Supported platforms - can be [Win64;OSX]
+Platform=OSX
+
+// Type of project - can be [Lib;DLL;App]
+Type=DLL
+
+// API dependencies
+APIS=cinema.framework;core.framework;network.framework;
+
+// Classic C4D API
+C4D=true
+
+stylecheck=false
+
+// Custom ID
+ModuleId=com.studioavante.SyphonR20
+
+AdditionalLinkOptions=-headerpad_max_install_names
+
+FRAMEWORK_SEARCH_PATHS=../source/Syphon/lib

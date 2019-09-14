@@ -1,15 +1,15 @@
 #!/bin/bash
 
 # Configure
-export FRAMEWORKS_DIR="../../C4DSDK/R20.055/frameworks/"
-export TOOL_DIR="../../C4DSDK/R20_tools/ProjectTool_20180829"
+export FRAMEWORKS_DIR="../../C4DSDK/R21.016/frameworks/"
+export TOOL_DIR="../../C4DSDK/Tools/ProjectTool_R21_20190205"
 
 # Create link to frameworks
 export FRAMEWORKS_LINK="./frameworks"
 ln -sf "$FRAMEWORKS_DIR" "$FRAMEWORKS_LINK"
 
 # Generate project
-export GENERATED_DIR="$PWD/SyphonR20"
+export GENERATED_DIR="$PWD/SyphonR21"
 if [ "$1" = "project" ]; then
 	# options: $TOOL_DIR/resource/config.txt
 	echo "Generating project..."

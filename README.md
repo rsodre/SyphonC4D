@@ -33,12 +33,34 @@ Tested and validated on...
 * Cinema 4D R18.057	: Yes (use R16 version)
 * Cinema 4D R19.053	: Yes (use R16 version)
 * Cinema 4D R20.055	: Yes
-* Cinema 4D R21+	: Hopefully Yes
+* Cinema 4D R21.016	: Yes
+* Cinema 4D R22+	: Probably no
 
 
-## Compiling the Source
+## Compiling the Source (R20+)
 
-The XCode projects are configured for the default location of Cinema 4D: `/Applications/MAXON/CINEMA 4D Rxx/`
+But the commited projects are ready to build.
 
-If your installation is on another place, relink the Cinema 4D libs and edit `install.sh`
+In case you need to replicate with another SDK, inside R20 folder, there's one script for generating the C4D project and sources and another for installing.
+
+The generation script (`gen_RXX.YYY.sh`) need to be updated with your SDK and Tools folder. You can/need to generate project and sources separated:
+
+* `./gen_RXX.YYY.sh project`
+* `./gen_RXX.YYY.sh code`
+
+If you re-generate the project, you need to manually do this to the XCode project...
+
+* Remove everything inside `source/Syphon/lib`
+* Add to `Syphon.framework` to `source/Syphon/lib`
+* Build Phases, Link Binary with Libraries, add:
+	* Syphon.framework
+	* OpenGL.framework
+	* AppKit.framework
+* Build Phases, add new Run Script Phase with:
+	* `../../install_RXX.YYY.sh`
+* Maybe relink frameworks and configuration files
+* (optional) Edit **syphonr21** schema and set your `Cinema 4D.app` on **Run**, **Executable** to be able to run and debug the plugin from XCode.
+
+The install script (`install_RXX.YYY.sh`) is configured for the default location of Cinema 4D: `/Applications/MAXON/CINEMA 4D Rxx/`. If your installation is on another place, edit it.
+
 

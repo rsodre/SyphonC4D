@@ -34,7 +34,7 @@ Tested and validated on...
 * Cinema 4D R19.053	: Yes (use R16 version)
 * Cinema 4D R20.055	: Yes
 * Cinema 4D R21.016	: Yes
-* Cinema 4D R22+	: Probably no
+* Cinema 4D S22.016	: Yes (use R21 version)
 
 
 ## Compiling the Source (R20+)

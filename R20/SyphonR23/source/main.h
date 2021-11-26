@@ -7,4 +7,6 @@
 // http://www.plugincafe.com/developer_plugid.asp
 #define ID_SYPHON 1032312
 
+void _printf(const char *format,...);
+
 Bool RegisterSyphonPlugin(void);

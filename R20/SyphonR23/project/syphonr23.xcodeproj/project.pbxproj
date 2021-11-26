@@ -257,8 +257,8 @@
 			isa = PBXGroup;
 			children = (
 				A090ADE3D623CA1DB1000000 /* Syphon */,
-				A090ADE3D6E921D362000000 /* main.cpp */,
 				A090ADE3D61837B5E7000000 /* main.h */,
+				A090ADE3D6E921D362000000 /* main.cpp */,
 				A090ADE3D61BCBE160000000 /* SyphonVP.cpp */,
 			);
 			name = source;

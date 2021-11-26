@@ -17,7 +17,6 @@
 #include <map>
 
 #include <stdarg.h>
-void _printf(const char *format,...);
 void _printf(const char *format,...)
 {
 #ifndef RELEASE
@@ -211,8 +210,8 @@ void SyphonVP::ExecuteLine(BaseVideoPost* node, PixelPost* pp)
 
 Bool RegisterSyphonPlugin(void)
 {
-	_printf("READY!");
-	return RegisterVideoPostPlugin(ID_SYPHON,GeLoadString(IDS_SYPHONVP),PLUGINFLAG_VIDEOPOST_MULTIPLE,SyphonVP::Alloc,"SyphonPlugin"_s,0,0);
+	Int32 priority = VPPRIORITY_WATERMARK + 1;
+	return RegisterVideoPostPlugin(ID_SYPHON,GeLoadString(IDS_SYPHONVP),PLUGINFLAG_VIDEOPOST_MULTIPLE,SyphonVP::Alloc,"SyphonPlugin"_s,0,priority);
 }
 
 

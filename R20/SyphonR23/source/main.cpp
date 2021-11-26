@@ -7,6 +7,7 @@ Bool PluginStart(void)
 	if (!RegisterSyphonPlugin())
 		return false;
 
+	_printf("READY!");
 	return true;
 }
 
